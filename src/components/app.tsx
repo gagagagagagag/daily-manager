@@ -22,7 +22,7 @@ const PluginRoot = () => {
       window.location.origin + window.location.pathname.replace(/^\/$/, '')
     registerSidebarTool({
       id: PLUGIN_NAME,
-      icon: baseUrl + icon,
+      icon: window.location.origin + icon,
       tooltip: 'Daily Manager',
       contentUrl: baseUrl + '?sidebar',
     })
