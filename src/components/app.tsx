@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { registerSidebarTool } from '@whiteboards-io/plugins'
 
-import icon from '../assets/icon.svg'
+import icon from '/icon.svg'
 import { Sidebar } from './sidebar'
 
 const PLUGIN_NAME = 'Daily Manager'
